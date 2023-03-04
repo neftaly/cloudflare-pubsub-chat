@@ -1,0 +1,9 @@
+name = "get-broker-token"
+main = "src/index.ts"
+compatibility_date = "2023-03-02"
+account_id = "ACCOUNT_ID"
+
+[vars]
+CLOUDFLARE_PUBSUB_NAMESPACE = "NAMESPACE_NAME"
+CLOUDFLARE_PUBSUB_BROKER = "YOUR_BROKER"
+CLOUDFLARE_ACCOUNT_ID = "ACCOUNT_ID"

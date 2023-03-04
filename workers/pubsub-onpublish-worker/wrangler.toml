@@ -1,0 +1,28 @@
+name = "pubsub-onpublish-worker"
+main = "src/index.ts"
+compatibility_date = "2023-03-02"
+account_id = "ACCOUNT_ID"
+
+[vars]
+# BROKER_PUBLIC_KEYS must be generated with the following command:
+# wrangler pubsub broker public-keys YOUR_BROKER --namespace=NAMESPACE_NAME
+BROKER_PUBLIC_KEYS = '''{
+  "keys": [
+    {
+      "use": "sig",
+      "kty": "OKP",
+      "kid": "--------------------------",
+      "crv": "Ed25519",
+      "alg": "EdDSA",
+      "x": "--------------------------"
+    },
+    {
+      "use": "sig",
+      "kty": "OKP",
+      "kid": "--------------------------",
+      "crv": "Ed25519",
+      "alg": "EdDSA",
+      "x": "--------------------------"
+    }
+  ]
+}'''

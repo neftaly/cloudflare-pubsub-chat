@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-pubsub-chat",
+  "scripts": {
+    "start": "npm run dev -w apps/chat",
+    "format": "npm run format --workspaces --if-exists",
+    "build": "npm run build --workspaces --if-exists",
+    "test": "npm test --workspaces --if-exists"
+  },
+  "license" : "BSD-3-Clause",
+  "workspaces": [
+    "workers/*",
+    "apps/*"
+  ]
+}
