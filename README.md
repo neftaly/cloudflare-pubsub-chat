@@ -1,6 +1,7 @@
-# cloudflare-pubsub-browser
+# cloudflare-pubsub-chat
 
-This monorepo provides a credential endpoint, an onpublish handler and an example browser client for Cloudflare PubSub.
+This monorepo provides workers for a credential endpoint and an onpublish handler.
+There is also an example browser client for Cloudflare PubSub.
 
 ## Deploying
 
